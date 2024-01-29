@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+}
+
+nav {
+    font-size: 1.25rem;
+    padding: 10px 10px 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(8, 120, 185);
+}
+
+footer {
+    background-color: rgb(46, 158, 223);
+    font-size: 1.25rem;
+    padding: 10px 10px 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.intro {
+    background-image: url(https://img.freepik.com/free-photo/white-cloud-blue-sky_74190-2381.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1706400000&semt=ais);
+    background-size: cover;
+    padding: 200px;
+    font-family: 'Arimo', Georgia, Times, serif;
+}
+
+.intro h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.intro h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(87, 87, 87);
+}
+.info {
+    background-color: rgb(216, 244, 255);
+}
+
+a {
+    color: rgb(28, 34, 36);
+    font-family: 'Arimo', Georgia, serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.img_a {
+    position: absolute;
+    margin-left: 100px;
+}
+
+.img_b {
+    position: absolute;
+    margin-left: 900px;
+}
+
+.about_will h2 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.card {
+    box-shadow: 2px 4px 8px 2px grey;
+    transition: 0.3s;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-top: 10px;;
+    outline-style: solid;
+    outline-color: rgb(99, 96, 96);
+    max-width: max-content;
+}
+
+.card:hover {
+    box-shadow: 4px 8px 16px 4px grey;
+}
+
+.card img {
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card h3 {
+    text-align: center;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    justify-items: center;
+    font-family: 'Noto Sans', Georgia, serif;
+    font-size: 1rem;
+    color: rgb(56, 21, 21);
+}
+
+.three-col ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.three-col dl {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+.three-col dd {
+    margin-inline-start: 40px;
+}
+
+.three-col a {
+    color: rgb(33, 129, 255);
+}
+
+.three-col a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+hr {
+    border-top: 5px dotted;
+    border-bottom: 0;
+    border-color: black;
+}
+
+.head img {
+    border-radius: 50%;
+    outline-style: solid;
+    outline-color: rgb(49, 49, 49);
+    margin-left: 46%;
+    margin-top: 20px;
+}
+
+.head h2 {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Arimo', Georgia, serif;
+    color: rgb(59, 56, 56);
+}
+
+.head p {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Noto Sans', Georgia, serif;
+    color: rgb(26, 21, 21);
+}
+
+.head h1 {
+    text-align: center;
+    padding-top: 10px;
+    font-family: "Arimo", Georgia, serif;
+    color: rgb(27, 24, 24);
+}
+
+.head {
+    background-color: rgb(216, 244, 255);
+}
+
+.one-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    background-color: rgb(216, 244, 255);
+    font-family:'Noto Sans', Georgia, serif;
+    font-size: 1rem;
+}
+
+.one-col .card {
+    padding: 10px;
+}
+
+.one-col .card input {
+    margin: 10px 0 10px 0;
+}
+
+.one-col .card textarea {
+    max-width: 500px;
+    max-height: 500px;
+}
